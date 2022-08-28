@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "CE032C5C7F04460A2B1B0A23C5C802E8",
+  "keywordFileContentHash": "1471AF7FEAA3BB5477131B57BF97EAA7",
   "keywordClasses": [
     {
       "name": "verifyURL",
@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * @author Santhosh Kumar\r\n\t * @description It will verify both the elements value is equal\r\n\t * @param expected will compare its defined url with current url\r\n\t * @param check will print the message of of its activity\r\n\t */"
         },
         {
           "name": "Verifyurl",
@@ -38,10 +39,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

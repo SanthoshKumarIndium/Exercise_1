@@ -20,7 +20,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": "/**\r\n\t * @author Santhosh Kumar\r\n\t * @description It will verify both the elements value is equal\r\n\t * @param name will pass an TestObject needed for comparison\r\n\t * @param expected will compare its defined name with current name\r\n\t * @param check will print the message of of its activity\r\n\t */"
         },
         {
           "name": "Verifylogin",
@@ -38,10 +39,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
