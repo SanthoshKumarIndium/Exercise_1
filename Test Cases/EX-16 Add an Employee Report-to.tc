@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Add an Employee: Report-to
+Description: Enter theReport-to details and save them</description>
+   <name>EX-16 Add an Employee Report-to</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10036&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i000o7:&quot;},&quot;status&quot;:{&quot;id&quot;:10012,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://santhoshindium.atlassian.net/&quot;,&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/status/10012&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/project/10006&quot;,&quot;key&quot;:&quot;EX&quot;,&quot;id&quot;:10006,&quot;name&quot;:&quot;Exercise 1&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Add an Employee: Report-to&quot;,&quot;description&quot;:&quot;Enter theReport-to details and save them&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;santhosh.saravanan@indiumsoft.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Santhosh Kumar S&quot;,&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/user?accountId\u003d62fb911b1e82e839c24fa99e&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;santhosh.saravanan@indiumsoft.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Santhosh Kumar S&quot;,&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/user?accountId\u003d62fb911b1e82e839c24fa99e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/issue/EX-16/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[&quot;employeeReportTo&quot;]},&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/issue/10112&quot;,&quot;key&quot;:&quot;EX-16&quot;,&quot;id&quot;:10112}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>678c3b1b-951f-4e80-bd63-35bcae051ba9</testCaseGuid>
+</TestCaseEntity>

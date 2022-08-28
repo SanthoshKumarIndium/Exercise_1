@@ -1,0 +1,47 @@
+{
+  "keywordFileContentHash": "CE032C5C7F04460A2B1B0A23C5C802E8",
+  "keywordClasses": [
+    {
+      "name": "verifyURL",
+      "keywordMethods": [
+        {
+          "name": "checkurl",
+          "parameters": [
+            {
+              "name": "expected",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "Verifyurl",
+          "parameters": [
+            {
+              "name": "Expected",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
