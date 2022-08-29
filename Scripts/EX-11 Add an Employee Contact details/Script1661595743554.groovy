@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Page_Contactdetails/input_StateProvince_oxd-input 
 
 WebUI.setText(findTestObject('Page_Contactdetails/input_ZipPostal Code_oxd-input oxd-input--focus'), GlobalVariable.zip)
 
-WebUI.selectOptionByLabel(findTestObject('Page_Contactdetails/Select_country'), GlobalVariable.country, false)
+WebUI.click(findTestObject('Page_Contactdetails/Page_OrangeHRM/Select_Country'))
 
 WebUI.setText(findTestObject('Page_Contactdetails/input_Mobile_oxd-input oxd-input--focus'), GlobalVariable.Mobile)
 
