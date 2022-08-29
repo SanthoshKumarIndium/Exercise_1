@@ -21,6 +21,8 @@ WebUI.click(findTestObject('Page_Employee list/li_Employee List'))
 
 WebUI.setText(findTestObject('Page_Employee list/input_Employeename'), GlobalVariable.Firstname)
 
+WebUI.verifyElementVisible(findTestObject('Page_Employee list/select_EmpName'))
+
 WebUI.click(findTestObject('Page_Employee list/select_EmpName'))
 
 WebUI.click(findTestObject('Page_Employee list/button_Search'))
