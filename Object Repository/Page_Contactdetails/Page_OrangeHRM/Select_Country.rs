@@ -4,18 +4,23 @@
    <name>Select_Country</name>
    <tag></tag>
    <elementGuidId>a93f70a9-9301-448b-841c-642e53a9919f</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//*[@class = 'oxd-select-text-input' and @tabindex = '0' and (text() = 'India' or . = 'India')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class=&quot;oxd-select-wrapper&quot;]//div//div[contains(text(),'India')]</value>
+         <value>//div[@class=&quot;oxd-select-text-input&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.oxd-select-text-input</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,31 +31,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>64c6021c-1904-49a0-b803-0a897594e206</webElementGuid>
+      <webElementGuid>2e6fb0da-0068-4d6e-8f6a-ded28f1109c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>oxd-select-text-input</value>
-      <webElementGuid>2413760a-7e4a-40e1-8305-0c58b7cfb5a5</webElementGuid>
+      <webElementGuid>c414f484-9e96-4b14-baaa-aabb369741cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>66a970d8-be09-40af-a36c-18c1c2fecb79</webElementGuid>
+      <webElementGuid>93625896-bff9-40a8-b985-2ebab496f87c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>-- Select --</value>
-      <webElementGuid>575d03d4-3adb-44ed-8586-88ad536ce914</webElementGuid>
+      <value>India</value>
+      <webElementGuid>71cc5b7a-8bfa-4cf3-a352-b61ceb628f7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,62 +63,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-content&quot;]/div[@class=&quot;orangehrm-horizontal-padding orangehrm-vertical-padding&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-text oxd-select-text--focus&quot;]/div[@class=&quot;oxd-select-text-input&quot;]</value>
-      <webElementGuid>3c1c9f96-608b-4288-97f5-1309694d80cf</webElementGuid>
+      <webElementGuid>65e86eed-fc6b-4a78-814d-5641d33d4aa0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/form/div/div/div[6]/div/div[2]/div/div/div</value>
-      <webElementGuid>85fd9f89-cf20-494c-94f2-53fc794eb14f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/following::div[4]</value>
-      <webElementGuid>ad174027-f3ae-4e0d-bf8a-c4f45d389101</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip/Postal Code'])[1]/following::div[8]</value>
-      <webElementGuid>241e856e-5dc1-4a39-9ca8-88504c24f0d5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Afghanistan'])[1]/preceding::div[3]</value>
-      <webElementGuid>862df262-f679-4529-89e2-ac8b2bd46c43</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='-- Select --']/parent::*</value>
-      <webElementGuid>1684b25f-bc1b-4418-9335-b02dd0c79f51</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[6]/div/div[2]/div/div/div</value>
-      <webElementGuid>4cabd187-5333-4a7b-b941-5234daa68f41</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = '-- Select --' or . = '-- Select --')]</value>
-      <webElementGuid>7616744b-3fd5-484a-8e43-b9dc979d4642</webElementGuid>
+      <value>//div[@class=&quot;oxd-select-text-input&quot;]</value>
+      <webElementGuid>8cbaed96-02ea-46c8-bc3a-7abb6b650242</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

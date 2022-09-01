@@ -6,8 +6,12 @@
    <elementGuidId>d7456237-8617-49f9-aa21-64e9ec6afc11</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '-- Select --' or . = '-- Select --')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/form/div/div/div[6]/div/div[2]/div/div</value>
+         <value>(//div[@class=&quot;oxd-select-wrapper&quot;]//div//div)[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1116761f-4397-4522-a469-e7d105ee3978</webElementGuid>
+      <webElementGuid>756accf8-2e9b-4af4-be39-c2154af2c4f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-select-text oxd-select-text--active</value>
-      <webElementGuid>43d55f0f-ec24-4739-b0dd-e1493c056e76</webElementGuid>
+      <webElementGuid>2bc26500-1520-4e4e-97c9-0ce8da659d3d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>-- Select --</value>
-      <webElementGuid>a674d9ff-7b9f-4613-9c04-e05fb79dd04f</webElementGuid>
+      <webElementGuid>a113e6c4-9e65-47a7-8889-669154c8968f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,46 +50,13 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-content&quot;]/div[@class=&quot;orangehrm-horizontal-padding orangehrm-vertical-padding&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-text oxd-select-text--active&quot;]</value>
-      <webElementGuid>fd4d31d1-b441-4c90-bdf4-5edcea548526</webElementGuid>
+      <webElementGuid>05499349-d21c-4edf-b713-f3136ec171bc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/form/div/div/div[6]/div/div[2]/div/div</value>
-      <webElementGuid>7b7a52ca-ed5b-4a95-ad20-d2577765353d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/following::div[3]</value>
-      <webElementGuid>8cbbdd57-0c52-41a3-b8a9-da70eae46fe5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip/Postal Code'])[1]/following::div[7]</value>
-      <webElementGuid>3e14a949-3a1e-431d-99f0-8dbd99f4a26f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[6]/div/div[2]/div/div</value>
-      <webElementGuid>1439b77c-6357-4b2f-aa77-baaec24eb864</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//div[(text() = '-- Select --' or . = '-- Select --')]</value>
-      <webElementGuid>1f746ff2-45ae-42c1-8495-1c515e57d51d</webElementGuid>
+      <value>(//div[@class=&quot;oxd-select-wrapper&quot;]//div//div)[2]</value>
+      <webElementGuid>53d8a807-219f-4bab-8beb-84fd6fd4a508</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

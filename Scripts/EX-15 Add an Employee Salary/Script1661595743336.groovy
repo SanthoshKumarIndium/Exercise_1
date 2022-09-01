@@ -23,11 +23,17 @@ WebUI.click(findTestObject('Page_Salary/button_Add'))
 
 WebUI.setText(findTestObject('Page_Salary/input_Salary Component_oxd-input oxd-input--focus'), GlobalVariable.SalaryComponent)
 
-WebUI.selectOptionByLabel(findTestObject('Page_Salary/Select_PayGrade'), GlobalVariable.PayGrade, false)
+WebUI.click(findTestObject('Page_Salary/Page_dropdown/dropdown_PayGrade'))
 
-WebUI.selectOptionByLabel(findTestObject('Page_Salary/Select_PayFrequency'), GlobalVariable.PayFrequency, false)
+WebUI.click(findTestObject('Page_Salary/Page_dropdown/select_PayGrade',[('paygrade'):GlobalVariable.PayGrade]))
 
-WebUI.selectOptionByLabel(findTestObject('Page_Salary/Select_currency'), GlobalVariable.Currency, false)
+WebUI.click(findTestObject('Page_Salary/Page_dropdown/dropdown_PayFrequency'))
+
+WebUI.click(findTestObject('Page_Salary/Page_dropdown/select_PayFrequency',[('payfrequency'):GlobalVariable.PayFrequency]))
+
+WebUI.click(findTestObject('Page_Salary/Page_dropdown/dropdown_Currency'))
+
+WebUI.click(findTestObject('Page_Salary/Select_currency',[('currency'):GlobalVariable.Currency]))
 
 WebUI.setText(findTestObject('Page_Salary/input_Amount_oxd-input oxd-input--focus'), GlobalVariable.Amount)
 

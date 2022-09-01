@@ -1,3 +1,4 @@
+import internal.GlobalVariable as GlobalVariable
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -14,7 +15,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.setText(findTestObject('Page_PersonalDetails/input_DrivingLicense'), GlobalVariable.DrivingLicence)
@@ -25,9 +25,13 @@ WebUI.setText(findTestObject('Page_PersonalDetails/input_SSN Number'), GlobalVar
 
 WebUI.setText(findTestObject('Page_PersonalDetails/input_SIN Number'), GlobalVariable.SINNumber)
 
-WebUI.selectOptionByLabel(findTestObject('Page_PersonalDetails/Select_Nationality'), GlobalVariable.Nationality, false)
+WebUI.click(findTestObject('Page_PersonalDetails/Page_dropdown/dropdown_Nationality'))
 
-WebUI.selectOptionByLabel(findTestObject('Page_PersonalDetails/Select_Marital status'), GlobalVariable.MaritalStatus, false)
+WebUI.click(findTestObject('Page_PersonalDetails/Page_dropdown/select_nationality', [('nationality') : GlobalVariable.Nationality]))
+
+WebUI.click(findTestObject('Page_PersonalDetails/Page_dropdown/dropdown_Maritalstatus'))
+
+WebUI.click(findTestObject('Page_PersonalDetails/Page_dropdown/select_maritalstatus', [('maritalstatus') : GlobalVariable.MaritalStatus]))
 
 WebUI.setText(findTestObject('Page_PersonalDetails/input_Date of Birth'), GlobalVariable.DOB)
 
@@ -37,7 +41,15 @@ WebUI.setText(findTestObject('Page_PersonalDetails/input_Military Service'), Glo
 
 WebUI.click(findTestObject('Page_PersonalDetails/button_Save1'))
 
-WebUI.selectOptionByLabel(findTestObject('Page_PersonalDetails/Select_Blood type'), GlobalVariable.BloodType, false)
+WebUI.click(findTestObject('Page_PersonalDetails/Page_dropdown/dropdown_Bloodgroup'))
+
+WebUI.click(findTestObject('Page_PersonalDetails/Page_dropdown/select_bloodgroup', [('bloodgroup') : GlobalVariable.BloodType]))
 
 WebUI.click(findTestObject('Page_PersonalDetails/button_Save2'))
+
+WebUI.scrollToElement(findTestObject('Page_PersonalDetails/Page_OrangeHRM/h6_Personal Details'), 3)
+
+not_run: WebUI.scrollToElement(findTestObject('Page_PersonalDetails/Page_OrangeHRM/a_Personal Details'), 3)
+
+not_run: WebUI.setText(findTestObject('Page_PersonalDetails/Page_OrangeHRM/input_Employee Full Name_firstName'), '')
 

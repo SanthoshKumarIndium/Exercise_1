@@ -21,15 +21,25 @@ WebUI.click(findTestObject('Page_Job/a_Job'))
 
 WebUI.setText(findTestObject('Page_Job/input_Joined Date_oxd-input oxd-input--focus'), GlobalVariable.JoinDate)
 
-WebUI.selectOptionByLabel(findTestObject('Page_Job/Select_JobTitle'), GlobalVariable.JobTitle, false)
+WebUI.click(findTestObject('Page_Job/Page_dropdown/dropdown_JobTitle'))
 
-WebUI.selectOptionByLabel(findTestObject('Page_Job/Select_JobCategory'), GlobalVariable.JobCategory, false)
+WebUI.click(findTestObject('Page_Job/Page_dropdown/select_Jobtitle',[('jobtitle'):GlobalVariable.JobTitle]))
 
-WebUI.selectOptionByLabel(findTestObject('Page_Job/Select_SubUnit'), GlobalVariable.SubUnit, false)
+WebUI.click(findTestObject('Page_Job/Page_dropdown/dropdown_JobCategory'))
 
-WebUI.selectOptionByLabel(findTestObject('Page_Job/Select_Location'), GlobalVariable.JobLocation, false)
+WebUI.click(findTestObject('Page_Job/Page_dropdown/select_JobCategory',[('jobcategory'):GlobalVariable.JobCategory]))
 
-WebUI.selectOptionByLabel(findTestObject('Page_Job/Select_EmploymentStatus'), GlobalVariable.EmploymentStatus, false)
+WebUI.click(findTestObject('Page_Job/Page_dropdown/dropdown_SubUnit'))
+
+WebUI.click(findTestObject('Page_Job/Page_dropdown/select_SubUnit',[('subunit'):GlobalVariable.SubUnit]))
+
+WebUI.click(findTestObject('Page_Job/Page_dropdown/dropdown_Location'))
+
+WebUI.click(findTestObject('Page_Job/Page_dropdown/select_Location',[('location'):GlobalVariable.JobLocation]))
+
+WebUI.click(findTestObject('Page_Job/Page_dropdown/dropdown_EmploymentStatus'))
+
+WebUI.click(findTestObject('Page_Job/Page_dropdown/select_EmploymentStatus',[('employmentstatus'):GlobalVariable.EmploymentStatus]))
 
 WebUI.click(findTestObject('Page_Job/button_Save'))
 

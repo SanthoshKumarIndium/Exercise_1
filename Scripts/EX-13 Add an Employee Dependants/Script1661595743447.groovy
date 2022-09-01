@@ -23,7 +23,11 @@ WebUI.click(findTestObject('Page_Depandant/button_Add'))
 
 WebUI.setText(findTestObject('Page_Depandant/input_Name_oxd-input oxd-input--focus'), GlobalVariable.DependantName)
 
-WebUI.selectOptionByLabel(findTestObject('Page_Depandant/Select_relationship'), GlobalVariable.Relationship, false)
+WebUI.click(findTestObject('Page_Depandant/Page_dropdown/dropdown_Relationship'))
+
+WebUI.click(findTestObject('Page_Depandant/Page_dropdown/Select_Other'))
+
+WebUI.setText(findTestObject('Page_Depandant/Page_dropdown/input_Relationship'), GlobalVariable.Relationship)
 
 WebUI.setText(findTestObject('Page_Depandant/input_Date of Birth_oxd-input oxd-input--focus'), GlobalVariable.DependantDOB)
 

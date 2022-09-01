@@ -6,15 +6,18 @@
    <elementGuidId>8a1c5dd4-b0fc-49a1-b0b7-f7a265b51102</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/form/div/div/div[3]/div/div[2]/div/div</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>//*[(text() = '${payfrequency}' or . = '${payfrequency}')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>7c54e036-c6db-427e-8789-c59fa024be52</webElementGuid>
+      <webElementGuid>c525992e-4ea0-43da-aa87-c0590ac8dc52</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,15 +33,15 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-select-text oxd-select-text--active</value>
-      <webElementGuid>c2e6dfee-7aa6-450c-bad8-ae185ea9bc70</webElementGuid>
+      <webElementGuid>9d2fd94d-2c2a-4991-808f-0570aa763733</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>-- Select --</value>
-      <webElementGuid>d073ed5a-793c-47ba-bdfb-fe3c1cc421fb</webElementGuid>
+      <value>${payfrequency}</value>
+      <webElementGuid>0eeb4986-ff23-4a83-aa6e-13a2c71d1651</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-content&quot;]/div[@class=&quot;orangehrm-horizontal-padding orangehrm-vertical-padding&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-select-wrapper&quot;]/div[@class=&quot;oxd-select-text oxd-select-text--active&quot;]</value>
-      <webElementGuid>24b4d53c-f2f8-46f5-985e-13b4e59709b7</webElementGuid>
+      <webElementGuid>16e44c4b-b14a-473d-8d9f-682da98a7889</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/form/div/div/div[3]/div/div[2]/div/div</value>
-      <webElementGuid>a5afabee-bb50-4275-afc7-77b9a9c35f5f</webElementGuid>
+      <webElementGuid>88ba324a-1d58-4c31-9927-c108b1fbcdf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay Frequency'])[1]/following::div[3]</value>
-      <webElementGuid>9ad84caf-1be2-4120-8f1c-9a8018131d7f</webElementGuid>
+      <webElementGuid>e3cc22f9-1acf-4947-8000-a10f52c84851</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-- Select --'])[1]/following::div[7]</value>
-      <webElementGuid>b686037c-9407-4875-8b34-b81f695dfef2</webElementGuid>
+      <webElementGuid>157fa9df-3d49-453f-a859-dc29be233d25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Currency'])[1]/preceding::div[3]</value>
-      <webElementGuid>072367fe-960b-481d-8b1e-6ee311ee4287</webElementGuid>
+      <webElementGuid>b4a2e58f-03a3-4f5f-8d5e-82168d6c600e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div[2]/div/div</value>
-      <webElementGuid>47b4544a-b260-440e-999f-0b378bc8db72</webElementGuid>
+      <webElementGuid>dbe90895-8b15-40f8-855f-62402b1b9cb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '-- Select --' or . = '-- Select --')]</value>
-      <webElementGuid>7ff689a7-88c3-46b1-a28f-73f04951da2e</webElementGuid>
+      <webElementGuid>8f3e8edc-f4b9-4b76-b9fb-bab07a9a2f52</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

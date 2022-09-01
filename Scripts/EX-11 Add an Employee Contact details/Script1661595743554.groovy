@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.verifyElementPresent(findTestObject('Page_Contactdetails/a_Contact Details'), 10)
+
 WebUI.click(findTestObject('Page_Contactdetails/a_Contact Details'))
 
 WebUI.setText(findTestObject('Page_Contactdetails/input_Street 1'), GlobalVariable.Street1)
@@ -27,11 +29,15 @@ WebUI.setText(findTestObject('Page_Contactdetails/input_StateProvince_oxd-input 
 
 WebUI.setText(findTestObject('Page_Contactdetails/input_ZipPostal Code_oxd-input oxd-input--focus'), GlobalVariable.zip)
 
-WebUI.click(findTestObject('Page_Contactdetails/Page_OrangeHRM/Select_Country'))
+WebUI.click(findTestObject('Page_Contactdetails/Page_dropdown/dropdown_country'))
+
+WebUI.click(findTestObject('Page_Contactdetails/Page_dropdown/Select_country', [('country') : GlobalVariable.country]))
 
 WebUI.setText(findTestObject('Page_Contactdetails/input_Mobile_oxd-input oxd-input--focus'), GlobalVariable.Mobile)
 
 WebUI.setText(findTestObject('Page_Contactdetails/input_Work Email_oxd-input oxd-input--focus'), GlobalVariable.WorkEmail)
+
+WebUI.waitForElementNotVisible(findTestObject('Page_Contactdetails/email_text'), 10)
 
 WebUI.click(findTestObject('Page_Contactdetails/button_Save'))
 

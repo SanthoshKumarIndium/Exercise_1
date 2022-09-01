@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'C:\\Users\\I5227\\Desktop\\bill.jpg'</initValue>
+      <initValue>'C:\\Users\\I5227\\Downloads\\photo.jpeg'</initValue>
       <name>Filepath</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -126,7 +126,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'user@mail.com'</initValue>
+      <initValue>'user589@workmail.com'</initValue>
       <name>WorkEmail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -211,7 +211,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'John'</initValue>
+      <initValue>'Paul'</initValue>
       <name>SupervisorName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

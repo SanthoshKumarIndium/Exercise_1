@@ -23,9 +23,13 @@ WebUI.click(findTestObject('Page_ReportTo/button_Add'))
 
 WebUI.setText(findTestObject('Page_ReportTo/input_supervisor name'), GlobalVariable.SupervisorName)
 
+WebUI.verifyElementVisible(findTestObject('Page_ReportTo/select_SupName'))
+
 WebUI.click(findTestObject('Page_ReportTo/select_SupName'))
 
-WebUI.selectOptionByLabel(findTestObject('Page_ReportTo/Select_ReportingMethod'), GlobalVariable.RepotingMethod, false)
+WebUI.click(findTestObject('Page_ReportTo/Page_dropdown/dropdown_ReportTo'))
+
+WebUI.click(findTestObject('Page_ReportTo/Page_dropdown/select_ReportTo', [('reportto') : GlobalVariable.RepotingMethod]))
 
 WebUI.click(findTestObject('Page_ReportTo/button_Save'))
 

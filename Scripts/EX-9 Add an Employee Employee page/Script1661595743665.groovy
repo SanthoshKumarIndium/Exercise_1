@@ -17,21 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.verifyElementClickable(findTestObject('Page_AddEmployee/Page_list/checkbox_list'))
-
-WebUI.click(findTestObject('Page_AddEmployee/Page_list/checkbox_list'))
-
-WebUI.verifyElementClickable(findTestObject('Page_AddEmployee/Page_list/button_Delete Selected'))
-
-WebUI.click(findTestObject('Page_AddEmployee/Page_list/button_Delete Selected'))
-
-WebUI.verifyElementClickable(findTestObject('Page_AddEmployee/Page_list/i_Yes, Delete_oxd-icon bi-trash oxd-button-icon'))
-
-WebUI.click(findTestObject('Page_AddEmployee/Page_list/i_Yes, Delete_oxd-icon bi-trash oxd-button-icon'))
-
 WebUI.verifyElementClickable(findTestObject('Page_AddEmployee/li_Add Employee'))
 
 WebUI.click(findTestObject('Page_AddEmployee/li_Add Employee'))
+
+WebUI.uploadFile(findTestObject('Page_AddEmployee/upload_photo'), GlobalVariable.Filepath)
 
 WebUI.setText(findTestObject('Page_AddEmployee/input_Employee Full Name_firstName'), GlobalVariable.Firstname)
 
