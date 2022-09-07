@@ -211,7 +211,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Paul'</initValue>
+      <initValue>'John'</initValue>
       <name>SupervisorName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
