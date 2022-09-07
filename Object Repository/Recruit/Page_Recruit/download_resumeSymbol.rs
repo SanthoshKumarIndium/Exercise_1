@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>download_resumeSymbol</name>
+   <tag></tag>
+   <elementGuidId>8f2b78dd-d661-4786-ad91-798993b1ef2f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/form/div[4]/div/div/div/div[2]/div/div/p/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.oxd-icon.bi-download.orangehrm-file-download</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>324f8a27-54a2-4d45-9708-305d65673789</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>oxd-icon bi-download orangehrm-file-download</value>
+      <webElementGuid>afb33a12-ff40-4163-9d2b-53cac8fa7ebd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-2 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group&quot;]/div[2]/div[@class=&quot;orangehrm-file-current&quot;]/div[@class=&quot;orangehrm-file-preview&quot;]/p[@class=&quot;oxd-text oxd-text--p orangehrm-file-name&quot;]/i[@class=&quot;oxd-icon bi-download orangehrm-file-download&quot;]</value>
+      <webElementGuid>dce375a8-783b-4c92-9ced-029a9e84db9a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[2]/div[2]/div[2]/div/form/div[4]/div/div/div/div[2]/div/div/p/i</value>
+      <webElementGuid>ba5a5e29-e10a-4acf-accf-3a96c6d8b7fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/i</value>
+      <webElementGuid>31f13457-8257-4fc2-a936-abafae87c8db</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

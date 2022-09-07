@@ -25,21 +25,15 @@ WebUI.callTestCase(findTestCase('Employee/EX-7 Login into the Account'), [:], Fa
 
 WebUI.callTestCase(findTestCase('Employee/EX-8 Verification of Account Logged in'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Employee/EX-9 Add an Employee Employee page'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Recruit/EX-32 Recruit a Candidate Recruitment page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Employee/EX-10 Add an Employee Personal details'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Recruit/EX-33 Recruit a Candidate Shortlist a Candidate'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Employee/EX-11 Add an Employee Contact details'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Recruit/EX-34 Recruit a Candidate Schedule a interview for Candidate'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Employee/EX-12 Add an Employee Emergency contacts'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Recruit/EX-35 Recruit a Candidate Interview status of Candidate'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Employee/EX-13 Add an Employee Dependants'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Recruit/EX-36 Recruit a Candidate Job Offer of Candidate'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Employee/EX-14 Add an Employee Job'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Employee/EX-15 Add an Employee Salary'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Employee/EX-16 Add an Employee Report-to'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('Employee/EX-17 Verification of Employee data in Employee list'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Recruit/EX-37 Recruit a Candidate Hire a Candidate'), [:], FailureHandling.STOP_ON_FAILURE)
 

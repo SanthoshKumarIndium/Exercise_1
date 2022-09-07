@@ -219,4 +219,99 @@
       <initValue>'Direct'</initValue>
       <name>RepotingMethod</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Shortlisted'</initValue>
+      <name>NotesShortlist</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Face to Face'</initValue>
+      <name>Interviewtitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'John'</initValue>
+      <name>InterviewerName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'2022-09-15'</initValue>
+      <name>InterviewDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Interview scheduled'</initValue>
+      <name>NotesScheduleInterview</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Passed Interview'</initValue>
+      <name>notesInterviewStatus</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Job Offered'</initValue>
+      <name>notesJobOffer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Hired'</initValue>
+      <name>notesHired</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Test Engineer'</initValue>
+      <name>VacancyName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Need 3+ Years of experience'</initValue>
+      <name>DescriptionJob</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'John'</initValue>
+      <name>HiringManager</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1'</initValue>
+      <name>NoofPositions</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://opensource-demo.orangehrmlive.com/web/index.php/recruitmentApply/jobs.html'</initValue>
+      <name>JobURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Sandy'</initValue>
+      <name>JobFirstname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Kumar'</initValue>
+      <name>JobLastname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sandykumar@mail.com'</initValue>
+      <name>Jobmail</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'9876543210'</initValue>
+      <name>Jobnumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Waiting for an Opportunity'</initValue>
+      <name>JobNotes</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\I5227\\Downloads\\resume.pdf'</initValue>
+      <name>Jobfilepath</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

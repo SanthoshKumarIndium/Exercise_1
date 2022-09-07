@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>upload_resume</name>
+   <tag></tag>
+   <elementGuidId>58c4e719-e281-455b-9aa9-6cff46b75655</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div//input[@type=&quot;file&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//div//input[@type=&quot;file&quot;]</value>
+      <webElementGuid>c6942ac7-cd2c-41b2-9b16-7352c2ca2ca0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

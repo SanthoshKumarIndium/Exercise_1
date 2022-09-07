@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Button_Apply</name>
+   <tag></tag>
+   <elementGuidId>57391a32-1352-486a-aa8f-b60927d1b05d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type=&quot;button&quot;])[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>(//button[@type=&quot;button&quot;])[1]</value>
+      <webElementGuid>fa9bbc33-daa8-4e46-9376-9bdf30df5d11</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

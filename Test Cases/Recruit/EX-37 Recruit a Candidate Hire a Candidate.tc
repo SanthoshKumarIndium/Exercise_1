@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: Recruit a Candidate: Hire a Candidate
+Description: Hire a candidate after acceptance </description>
+   <name>EX-37 Recruit a Candidate Hire a Candidate</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10036&quot;:[],&quot;customfield_10014&quot;:&quot;EX-26&quot;,&quot;customfield_10020&quot;:[{&quot;id&quot;:9,&quot;name&quot;:&quot;EX Sprint HR Actvities&quot;,&quot;state&quot;:&quot;active&quot;,&quot;boardId&quot;:7,&quot;goal&quot;:&quot;complete within Duedate&quot;,&quot;startDate&quot;:&quot;2022-09-05T14:28:14.397Z&quot;,&quot;endDate&quot;:&quot;2022-09-09T04:49:00.000Z&quot;}],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i000rz:&quot;},&quot;status&quot;:{&quot;id&quot;:10012,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://santhoshindium.atlassian.net/&quot;,&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/status/10012&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/project/10006&quot;,&quot;key&quot;:&quot;EX&quot;,&quot;id&quot;:10006,&quot;name&quot;:&quot;Exercise 1&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;Recruit a Candidate: Hire a Candidate&quot;,&quot;description&quot;:&quot;Hire a candidate after acceptance &quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;santhosh.saravanan@indiumsoft.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Santhosh Kumar S&quot;,&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/user?accountId\u003d62fb911b1e82e839c24fa99e&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;santhosh.saravanan@indiumsoft.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Santhosh Kumar S&quot;,&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/user?accountId\u003d62fb911b1e82e839c24fa99e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/issue/EX-37/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[{&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/version/10003&quot;,&quot;id&quot;:10003,&quot;description&quot;:&quot;HR Activities&quot;,&quot;name&quot;:&quot;Version 2.0&quot;,&quot;isArchived&quot;:false,&quot;isReleased&quot;:false}],&quot;subtasks&quot;:[],&quot;labels&quot;:[&quot;Recruitment&quot;]},&quot;self&quot;:&quot;https://santhoshindium.atlassian.net/rest/api/2/issue/10133&quot;,&quot;key&quot;:&quot;EX-37&quot;,&quot;id&quot;:10133}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>76cfedec-2baf-4a0e-8eaf-547fcf1dd668</testCaseGuid>
+</TestCaseEntity>
