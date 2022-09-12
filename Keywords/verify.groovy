@@ -44,25 +44,28 @@ public class verify {
 	 * @author Santhosh Kumar
 	 * @description It will verify both the elements text is equal
 	 * @param name will pass an TestObject needed for comparison
-	 * @param expected will compare its defined name with current name
-	 * @param check will print the message of of its activity
+	 * @param verifytext will compare its defined text with current current 
 	 */
 	@Keyword
-	def check(TestObject name, String country) {
+	def check(TestObject name, String verifytext) {
 		try {
-			
-			while(!(WebUI.verifyElementText(name, country))) {
-				WebUI.sendKeys(name, Keys.chord(Keys.DOWN))
+
+			WebUI.verifyElementText(name, verifytext)
+			KeywordUtil.markPassed("****Verified Element Text****")
 				
-			}
-			
 		} catch (Exception e) {
 
-			KeywordUtil.markFailed("****Fail to slect the Country****")
+			KeywordUtil.markFailed("****Failed to verify the Element Text****")
 		}
 	}
+	/**
+	 * @author Santhosh Kumar
+	 * @description It will verify both the elements text is equal
+	 * @param Name will pass an TestObject needed for comparison
+	 * @param Verifytext will compare its defined text with current current
+	 */
 	@Keyword
-	def Verify(TestObject Name, String Country) {
-		check(Name,Country)
+	def Verify(TestObject Name, String Verifytext) {
+		check(Name,Verifytext)
 	}
 }

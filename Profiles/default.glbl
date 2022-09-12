@@ -36,6 +36,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'98564'</initValue>
+      <name>EmpID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'sandyang'</initValue>
       <name>LoginName</name>
    </GlobalVariableEntity>
@@ -166,7 +171,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Officials and Managers'</initValue>
+      <initValue>'Operatives'</initValue>
       <name>JobCategory</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -313,5 +318,15 @@
       <description></description>
       <initValue>'C:\\Users\\I5227\\Downloads\\resume.pdf'</initValue>
       <name>Jobfilepath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Successfully Updated'</initValue>
+      <name>successmessage</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Successfully Saved'</initValue>
+      <name>successmessagesaved</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

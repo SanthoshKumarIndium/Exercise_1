@@ -37,7 +37,9 @@ WebUI.setText(findTestObject('Employee/Page_Contactdetails/input_Mobile_oxd-inpu
 
 WebUI.setText(findTestObject('Employee/Page_Contactdetails/input_Work Email_oxd-input oxd-input--focus'), GlobalVariable.WorkEmail)
 
-WebUI.waitForElementNotVisible(findTestObject('Employee/Page_Contactdetails/email_text'), 10)
+WebUI.waitForElementNotVisible(findTestObject('Employee/Page_Contactdetails/email_text'), 5)
 
 WebUI.click(findTestObject('Employee/Page_Contactdetails/button_Save'))
+
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessage)
 

@@ -29,3 +29,5 @@ WebUI.click(findTestObject('Employee/Page_Employee list/button_Search'))
 
 WebUI.verifyElementText(findTestObject('Employee/Page_Employee list/div_firstname'), GlobalVariable.Firstname)
 
+CustomKeywords.'verify.Verify'(findTestObject('Employee/Page_Employee list/div_firstname'), GlobalVariable.Firstname)
+

@@ -33,3 +33,5 @@ WebUI.setText(findTestObject('Employee/Page_Depandant/input_Date of Birth_oxd-in
 
 WebUI.click(findTestObject('Employee/Page_Depandant/button_Save'))
 
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessagesaved)
+

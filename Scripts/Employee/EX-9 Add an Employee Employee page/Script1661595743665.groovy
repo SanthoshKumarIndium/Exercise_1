@@ -27,6 +27,8 @@ WebUI.setText(findTestObject('Employee/Page_AddEmployee/input_Employee Full Name
 
 WebUI.setText(findTestObject('Employee/Page_AddEmployee/input_Employee Full Name_lastName'), GlobalVariable.Lastname)
 
+WebUI.setText(findTestObject('Employee/Page_AddEmployee/input_Employee Id'), GlobalVariable.EmpID)
+
 WebUI.click(findTestObject('Employee/Page_AddEmployee/spanSwitch_Login details'))
 
 WebUI.verifyElementVisible(findTestObject('Employee/Page_AddEmployee/input_Username_Login details'))
@@ -44,4 +46,6 @@ WebUI.setText(findTestObject('Employee/Page_AddEmployee/input_Confirm Password_L
 WebUI.verifyElementClickable(findTestObject('Employee/Page_AddEmployee/button_Save-add Employee'))
 
 WebUI.click(findTestObject('Employee/Page_AddEmployee/button_Save-add Employee'))
+
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessagesaved)
 

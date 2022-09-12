@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "DACA2551B6FD30DA400236F5B940BD33",
+  "keywordFileContentHash": "2BC9EFBAB8353C24AF49B1D0C09A48F7",
   "keywordClasses": [
     {
       "name": "verify",
@@ -21,7 +21,7 @@
               }
             },
             {
-              "name": "country",
+              "name": "verifytext",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -34,7 +34,7 @@
               }
             }
           ],
-          "javadoc": "/**\r\n\t * @author Santhosh Kumar\r\n\t * @description It will verify both the elements text is equal\r\n\t * @param name will pass an TestObject needed for comparison\r\n\t * @param expected will compare its defined name with current name\r\n\t * @param check will print the message of of its activity\r\n\t */"
+          "javadoc": "/**\r\n\t * @author Santhosh Kumar\r\n\t * @description It will verify both the elements text is equal\r\n\t * @param name will pass an TestObject needed for comparison\r\n\t * @param verifytext will compare its defined text with current current \r\n\t */"
         },
         {
           "name": "Verify",
@@ -53,7 +53,7 @@
               }
             },
             {
-              "name": "Country",
+              "name": "Verifytext",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -66,7 +66,7 @@
               }
             }
           ],
-          "javadoc": ""
+          "javadoc": "/**\r\n\t * @author Santhosh Kumar\r\n\t * @description It will verify both the elements text is equal\r\n\t * @param Name will pass an TestObject needed for comparison\r\n\t * @param Verifytext will compare its defined text with current current\r\n\t */"
         }
       ]
     }

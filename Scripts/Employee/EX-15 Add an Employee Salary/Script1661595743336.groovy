@@ -25,17 +25,19 @@ WebUI.setText(findTestObject('Employee/Page_Salary/input_Salary Component_oxd-in
 
 WebUI.click(findTestObject('Employee/Page_Salary/Page_dropdown/dropdown_PayGrade'))
 
-WebUI.click(findTestObject('Employee/Page_Salary/Page_dropdown/select_PayGrade',[('paygrade'):GlobalVariable.PayGrade]))
+WebUI.click(findTestObject('Employee/Page_Salary/Page_dropdown/select_PayGrade', [('paygrade') : GlobalVariable.PayGrade]))
 
 WebUI.click(findTestObject('Employee/Page_Salary/Page_dropdown/dropdown_PayFrequency'))
 
-WebUI.click(findTestObject('Employee/Page_Salary/Page_dropdown/select_PayFrequency',[('payfrequency'):GlobalVariable.PayFrequency]))
+WebUI.click(findTestObject('Employee/Page_Salary/Page_dropdown/select_PayFrequency', [('payfrequency') : GlobalVariable.PayFrequency]))
 
 WebUI.click(findTestObject('Employee/Page_Salary/Page_dropdown/dropdown_Currency'))
 
-WebUI.click(findTestObject('Employee/Page_Salary/Select_currency',[('currency'):GlobalVariable.Currency]))
+WebUI.click(findTestObject('Employee/Page_Salary/Select_currency', [('currency') : GlobalVariable.Currency]))
 
 WebUI.setText(findTestObject('Employee/Page_Salary/input_Amount_oxd-input oxd-input--focus'), GlobalVariable.Amount)
 
 WebUI.click(findTestObject('Employee/Page_Salary/button_Save'))
+
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessagesaved)
 

@@ -41,15 +41,15 @@ WebUI.setText(findTestObject('Employee/Page_PersonalDetails/input_Military Servi
 
 WebUI.click(findTestObject('Employee/Page_PersonalDetails/button_Save1'))
 
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessage)
+
 WebUI.click(findTestObject('Employee/Page_PersonalDetails/Page_dropdown/dropdown_Bloodgroup'))
 
 WebUI.click(findTestObject('Employee/Page_PersonalDetails/Page_dropdown/select_bloodgroup', [('bloodgroup') : GlobalVariable.BloodType]))
 
 WebUI.click(findTestObject('Employee/Page_PersonalDetails/button_Save2'))
 
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessagesaved)
+
 WebUI.scrollToElement(findTestObject('Employee/Page_PersonalDetails/Page_OrangeHRM/h6_Personal Details'), 3)
-
-not_run: WebUI.scrollToElement(findTestObject('Employee/Page_PersonalDetails/Page_OrangeHRM/a_Personal Details'), 3)
-
-not_run: WebUI.setText(findTestObject('Employee/Page_PersonalDetails/Page_OrangeHRM/input_Employee Full Name_firstName'), '')
 

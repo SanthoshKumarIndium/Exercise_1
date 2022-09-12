@@ -23,3 +23,4 @@ WebUI.setText(findTestObject('Recruit/Page_Recruit/notes_offerJob'), GlobalVaria
 
 WebUI.click(findTestObject('Recruit/Page_Recruit/button_Save'))
 
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessage)
