@@ -29,5 +29,6 @@ WebUI.setText(findTestObject('Employee/Page_Emergencydetails/input_Mobile_oxd-in
 
 WebUI.click(findTestObject('Employee/Page_Emergencydetails/button_Save'))
 
-CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessagesaved)
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessagesaved, 
+    GlobalVariable.textEmergency)
 

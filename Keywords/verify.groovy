@@ -45,17 +45,21 @@ public class verify {
 	 * @description It will verify both the elements text is equal
 	 * @param name will pass an TestObject needed for comparison
 	 * @param verifytext will compare its defined text with current current 
+	 * @param text will print the current message
 	 */
 	@Keyword
-	def check(TestObject name, String verifytext) {
+	def check(TestObject name, String verifytext, String text) {
 		try {
 
-			WebUI.verifyElementText(name, verifytext)
-			KeywordUtil.markPassed("****Verified Element Text****")
-				
+			if(WebUI.verifyElementText(name, verifytext)) {
+				KeywordUtil.markPassed("****Successfully Verified "+text+" and Updated****")
+			}
+			else {
+				KeywordUtil.markFailed("****Not Verified "+text+" and Updated****")
+			}
 		} catch (Exception e) {
 
-			KeywordUtil.markFailed("****Failed to verify the Element Text****")
+			KeywordUtil.markFailed("****Failed to verify the Element Text "+text+"****")
 		}
 	}
 	/**
@@ -63,9 +67,10 @@ public class verify {
 	 * @description It will verify both the elements text is equal
 	 * @param Name will pass an TestObject needed for comparison
 	 * @param Verifytext will compare its defined text with current current
+	 * @param Text will print the current message
 	 */
 	@Keyword
-	def Verify(TestObject Name, String Verifytext) {
-		check(Name,Verifytext)
+	def Verify(TestObject Name, String Verifytext, String Text) {
+		check(Name,Verifytext,Text)
 	}
 }

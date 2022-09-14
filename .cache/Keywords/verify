@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "2BC9EFBAB8353C24AF49B1D0C09A48F7",
+  "keywordFileContentHash": "5A169F9C0A1E946ECE4AED20615E5B1B",
   "keywordClasses": [
     {
       "name": "verify",
@@ -32,9 +32,22 @@
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
+            },
+            {
+              "name": "text",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
             }
           ],
-          "javadoc": "/**\r\n\t * @author Santhosh Kumar\r\n\t * @description It will verify both the elements text is equal\r\n\t * @param name will pass an TestObject needed for comparison\r\n\t * @param verifytext will compare its defined text with current current \r\n\t */"
+          "javadoc": "/**\r\n\t * @author Santhosh Kumar\r\n\t * @description It will verify both the elements text is equal\r\n\t * @param name will pass an TestObject needed for comparison\r\n\t * @param verifytext will compare its defined text with current current \r\n\t * @param text will print the current message\r\n\t */"
         },
         {
           "name": "Verify",
@@ -64,9 +77,22 @@
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
+            },
+            {
+              "name": "Text",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
             }
           ],
-          "javadoc": "/**\r\n\t * @author Santhosh Kumar\r\n\t * @description It will verify both the elements text is equal\r\n\t * @param Name will pass an TestObject needed for comparison\r\n\t * @param Verifytext will compare its defined text with current current\r\n\t */"
+          "javadoc": "/**\r\n\t * @author Santhosh Kumar\r\n\t * @description It will verify both the elements text is equal\r\n\t * @param Name will pass an TestObject needed for comparison\r\n\t * @param Verifytext will compare its defined text with current current\r\n\t * @param Text will print the current message\r\n\t */"
         }
       ]
     }

@@ -23,25 +23,26 @@ WebUI.setText(findTestObject('Employee/Page_Job/input_Joined Date_oxd-input oxd-
 
 WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/dropdown_JobTitle'))
 
-WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/select_Jobtitle',[('jobtitle'):GlobalVariable.JobTitle]))
+WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/select_Jobtitle', [('jobtitle') : GlobalVariable.JobTitle]))
 
 WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/dropdown_JobCategory'))
 
-WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/select_JobCategory',[('jobcategory'):GlobalVariable.JobCategory]))
+WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/select_JobCategory', [('jobcategory') : GlobalVariable.JobCategory]))
 
 WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/dropdown_SubUnit'))
 
-WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/select_SubUnit',[('subunit'):GlobalVariable.SubUnit]))
+WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/select_SubUnit', [('subunit') : GlobalVariable.SubUnit]))
 
 WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/dropdown_Location'))
 
-WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/select_Location',[('location'):GlobalVariable.JobLocation]))
+WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/select_Location', [('location') : GlobalVariable.JobLocation]))
 
 WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/dropdown_EmploymentStatus'))
 
-WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/select_EmploymentStatus',[('employmentstatus'):GlobalVariable.EmploymentStatus]))
+WebUI.click(findTestObject('Employee/Page_Job/Page_dropdown/select_EmploymentStatus', [('employmentstatus') : GlobalVariable.EmploymentStatus]))
 
 WebUI.click(findTestObject('Employee/Page_Job/button_Save'))
 
-CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessage)
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessage, 
+    GlobalVariable.textJob)
 

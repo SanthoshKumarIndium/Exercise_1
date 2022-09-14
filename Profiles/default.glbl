@@ -136,6 +136,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'Expected format: admin@example.com'</initValue>
+      <name>emailtext</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>'DemoUser'</initValue>
       <name>EmergencyName</name>
    </GlobalVariableEntity>
@@ -328,5 +333,80 @@
       <description></description>
       <initValue>'Successfully Saved'</initValue>
       <name>successmessagesaved</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'User Account created'</initValue>
+      <name>textAccount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Personal Details'</initValue>
+      <name>textPersonaldetails</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Blood Group'</initValue>
+      <name>textBloodgroup</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Contact details'</initValue>
+      <name>textContactdetails</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Emergency Details'</initValue>
+      <name>textEmergency</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Dependant Details'</initValue>
+      <name>textDependants</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Job Details'</initValue>
+      <name>textJob</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Salary Details'</initValue>
+      <name>textSalary</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Report-To Details'</initValue>
+      <name>textReportTo</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Username present in list'</initValue>
+      <name>textUserinList</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Candidate Shortlisted'</initValue>
+      <name>textShortlist</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Interview has been Scheduled'</initValue>
+      <name>textInterview</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Interview status marked'</initValue>
+      <name>textInterviewStatus</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Job Offered for a Candidate'</initValue>
+      <name>textJoboffer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Candidate Hired'</initValue>
+      <name>textHire</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

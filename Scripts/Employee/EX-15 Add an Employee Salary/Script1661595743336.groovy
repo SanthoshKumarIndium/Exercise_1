@@ -39,5 +39,6 @@ WebUI.setText(findTestObject('Employee/Page_Salary/input_Amount_oxd-input oxd-in
 
 WebUI.click(findTestObject('Employee/Page_Salary/button_Save'))
 
-CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessagesaved)
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessagesaved, 
+    GlobalVariable.textSalary)
 

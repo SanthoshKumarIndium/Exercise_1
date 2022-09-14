@@ -47,5 +47,6 @@ WebUI.verifyElementClickable(findTestObject('Employee/Page_AddEmployee/button_Sa
 
 WebUI.click(findTestObject('Employee/Page_AddEmployee/button_Save-add Employee'))
 
-CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessagesaved)
+CustomKeywords.'verify.Verify'(findTestObject('Recruit/Page_Recruit/message_Successfully Updated'), GlobalVariable.successmessagesaved, 
+    GlobalVariable.textAccount)
 
